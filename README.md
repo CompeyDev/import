@@ -20,6 +20,8 @@ local import = require(script.import)
 
 For testing, Let's try getting a Module named "Test" from ReplicatedStorage. Before we do this, Keep in mind that there's two different ways of using the Module. The first way of calling the Module is without parentheses, And the second one is with parentheses. None of them are better than each other, It mostly depends on the way you like to use it, I personally prefer using without, But that's just a personal choice!
 
+_**Note that the first parameter of the Path must be the name of a valid Roblox Service, Not providing it will result in an error.**_
+
 ```lua
 -- Using parentheses
 local Test = import('ReplicatedStorage/Test')
